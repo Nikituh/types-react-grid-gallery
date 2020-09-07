@@ -7,13 +7,8 @@ declare type ImageOptions = {
   thumbnail:         string;
   thumbnailWidth:    number;
   thumbnailHeight:   number;
-  thumbnailCaption?: number;
-  tags?:             string[];
   isSelected?:       boolean;
   caption?:          string;
-  srcSet?:           string[];
-  customOverlay?:    any;
-  orientation?:      number;
 };
 
 declare type Props = {
